@@ -127,6 +127,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="zdz-qZ-Itm" eventType="touchUpInside" id="weJ-av-pSW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhz-yT-oUJ" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                 <rect key="frame" x="10" y="343" width="394" height="50"/>
@@ -212,6 +215,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FMX-3e-IPE"/>
                     </view>
+                    <connections>
+                        <segue destination="hEi-mC-Skp" kind="show" identifier="skillVCSegue" id="6RJ-sp-5fv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iZ0-s7-IeL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="U5m-p9-HWC" userLabel="Exit" sceneMemberID="exit"/>
